@@ -1,0 +1,5324 @@
+Folder PATH listing for volume Data_1
+Volume serial number is BF09-4BD0
+D:.
+│   KIEN_TRUC_TEAM_AGENT_LAYA_KEV.md
+│   team_agent_orchestrator.ps1
+│   tree.txt
+│   
+├───kev
+│   │   .gitattributes
+│   │   .gitignore
+│   │   .python-version
+│   │   AGENTS.md
+│   │   LICENSE
+│   │   modal_app.py
+│   │   PLAN.md
+│   │   pyproject.toml
+│   │   README.md
+│   │   skills-lock.json
+│   │   uv.lock
+│   │   
+│   ├───.agents
+│   │   └───skills
+│   │       ├───deslop
+│   │       │       SKILL.md
+│   │       │       
+│   │       ├───grill-me
+│   │       │   │   SKILL.md
+│   │       │   │   
+│   │       │   └───agents
+│   │       │           openai.yaml
+│   │       │           
+│   │       ├───kev-modal-study
+│   │       │       SKILL.md
+│   │       │       
+│   │       ├───kev-pr-description
+│   │       │       SKILL.md
+│   │       │       
+│   │       ├───kev-verify
+│   │       │       SKILL.md
+│   │       │       
+│   │       ├───thermonuclear-code-review
+│   │       │       SKILL.md
+│   │       │       
+│   │       └───unslop
+│   │               SKILL.md
+│   │               
+│   ├───.github
+│   │   └───workflows
+│   │           ci.yml
+│   │           
+│   ├───docs
+│   │   │   autoresearch.md
+│   │   │   chess.png
+│   │   │   claims.json
+│   │   │   kev-benchmark-dark.png
+│   │   │   kev-benchmark.png
+│   │   │   kev-family-summary.json
+│   │   │   kev-family.png
+│   │   │   playground.png
+│   │   │   
+│   │   └───model-cards
+│   │           kev-0.5b.md
+│   │           kev-0.6b-qwen3.md
+│   │           kev-0.8b.md
+│   │           kev-27b.md
+│   │           kev-4b-qwen3.md
+│   │           kev-4b.md
+│   │           kev-8b-qwen3.md
+│   │           kev-9b.md
+│   │           
+│   ├───evals
+│   │   ├───agents-ood-v1
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───breadth-v1
+│   │   │       manifest.json
+│   │   │       overlap.json
+│   │   │       
+│   │   ├───decision-v1
+│   │   │       calibration.jsonl
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       test.jsonl
+│   │   │       train.jsonl
+│   │   │       
+│   │   ├───decision-v2
+│   │   │       calibration.jsonl
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       test.jsonl
+│   │   │       train.jsonl
+│   │   │       
+│   │   ├───devtools-v1
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       test.jsonl
+│   │   │       train.jsonl
+│   │   │       
+│   │   ├───diagnostics
+│   │   │       binding-v1.jsonl
+│   │   │       binding-v1.manifest.json
+│   │   │       
+│   │   ├───documents-v1
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       test.jsonl
+│   │   │       
+│   │   ├───documents-v2
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───external
+│   │   │   ├───ekzhang-mmlupro-v1
+│   │   │   │       records.jsonl
+│   │   │   │       sample.json
+│   │   │   │       
+│   │   │   ├───semif-v1
+│   │   │   │       calibration.jsonl
+│   │   │   │       development.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       test.jsonl
+│   │   │   │       train.jsonl
+│   │   │   │       
+│   │   │   ├───typesafe-v1
+│   │   │   │       calibration.jsonl
+│   │   │   │       development.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       test.jsonl
+│   │   │   │       train.jsonl
+│   │   │   │       
+│   │   │   ├───wanli-v1
+│   │   │   │       calibration.jsonl
+│   │   │   │       development.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       test.jsonl
+│   │   │   │       train.jsonl
+│   │   │   │       
+│   │   │   └───wanli-v2
+│   │   │           calibration.jsonl
+│   │   │           development.jsonl
+│   │   │           manifest.json
+│   │   │           test.jsonl
+│   │   │           train.jsonl
+│   │   │           
+│   │   ├───guardrails-ood-v1
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───hard-v1
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       overlap.json
+│   │   │       test.jsonl
+│   │   │       
+│   │   ├───longdoc-v1
+│   │   │       manifest.json
+│   │   │       overlap.json
+│   │   │       
+│   │   ├───night2
+│   │   │       all.jsonl
+│   │   │       assertion.jsonl
+│   │   │       dates.jsonl
+│   │   │       dates_unknowable.jsonl
+│   │   │       manifest.json
+│   │   │       unknowable.jsonl
+│   │   │       
+│   │   ├───ood-v2
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───public-pool-v4
+│   │   │       calibration.jsonl
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       test.jsonl
+│   │   │       
+│   │   ├───public-pool-v5
+│   │   │       calibration.jsonl
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       test.jsonl
+│   │   │       
+│   │   ├───public-pool-v6
+│   │   │       calibration.jsonl
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       test.jsonl
+│   │   │       
+│   │   ├───round10
+│   │   │   ├───devtools
+│   │   │   │       manifest.json
+│   │   │   │       
+│   │   │   ├───hard
+│   │   │   │       manifest.json
+│   │   │   │       
+│   │   │   └───skills
+│   │   │           manifest.json
+│   │   │           
+│   │   ├───round15
+│   │   │   └───joint
+│   │   │           manifest.json
+│   │   │           
+│   │   ├───round3
+│   │   │   ├───decision-r3
+│   │   │   │       calibration.jsonl
+│   │   │   │       development.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       test.jsonl
+│   │   │   │       
+│   │   │   └───transfer-r3
+│   │   │           calibration.jsonl
+│   │   │           development.jsonl
+│   │   │           manifest.json
+│   │   │           test.jsonl
+│   │   │           train.jsonl
+│   │   │           
+│   │   ├───round4
+│   │   │   ├───ambiguity-v1
+│   │   │   │       hard.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       soft.jsonl
+│   │   │   │       
+│   │   │   ├───distill-9b-v1
+│   │   │   │       manifest.json
+│   │   │   │       
+│   │   │   └───longstate-v1
+│   │   │           development.jsonl
+│   │   │           manifest.json
+│   │   │           train_control.jsonl
+│   │   │           
+│   │   ├───round5
+│   │   │   ├───combined-v1
+│   │   │   │       manifest.json
+│   │   │   │       
+│   │   │   ├───longstate-v2
+│   │   │   │       development.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       train_control.jsonl
+│   │   │   │       
+│   │   │   └───transfer-r5
+│   │   │           calibration.jsonl
+│   │   │           development.jsonl
+│   │   │           manifest.json
+│   │   │           test.jsonl
+│   │   │           train.jsonl
+│   │   │           
+│   │   ├───round6
+│   │   │   └───b1v2
+│   │   │           manifest.json
+│   │   │           
+│   │   ├───sft-v1
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───sft-v2
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───sft-v2-r21
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───sft-v2-r22
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───sft-v2-r25
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───sft-v2-r26
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───smoke-v1
+│   │   │       calibration.jsonl
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       test.jsonl
+│   │   │       train.jsonl
+│   │   │       
+│   │   ├───tasksource-heldout-v1
+│   │   │       manifest.json
+│   │   │       
+│   │   ├───transfer-v1
+│   │   │       calibration.jsonl
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       test.jsonl
+│   │   │       train.jsonl
+│   │   │       
+│   │   ├───transfer-v2
+│   │   │       calibration.jsonl
+│   │   │       development.jsonl
+│   │   │       manifest.json
+│   │   │       test.jsonl
+│   │   │       train.jsonl
+│   │   │       
+│   │   ├───v3
+│   │   │   ├───decision-v3
+│   │   │   │       calibration.jsonl
+│   │   │   │       development.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       test.jsonl
+│   │   │   │       train.jsonl
+│   │   │   │       
+│   │   │   ├───smoke-v3
+│   │   │   │       calibration.jsonl
+│   │   │   │       development.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       test.jsonl
+│   │   │   │       train.jsonl
+│   │   │   │       
+│   │   │   └───transfer-v3
+│   │   │           calibration.jsonl
+│   │   │           development.jsonl
+│   │   │           manifest.json
+│   │   │           test.jsonl
+│   │   │           train.jsonl
+│   │   │           
+│   │   ├───v4
+│   │   │   ├───decision-v4
+│   │   │   │       calibration.jsonl
+│   │   │   │       development.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       test.jsonl
+│   │   │   │       
+│   │   │   └───transfer-v4
+│   │   │           calibration.jsonl
+│   │   │           development.jsonl
+│   │   │           manifest.json
+│   │   │           test.jsonl
+│   │   │           train.jsonl
+│   │   │           
+│   │   ├───v5
+│   │   │   ├───decision-v5
+│   │   │   │       calibration.jsonl
+│   │   │   │       development.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       test.jsonl
+│   │   │   │       
+│   │   │   └───transfer-v5
+│   │   │           calibration.jsonl
+│   │   │           development.jsonl
+│   │   │           manifest.json
+│   │   │           test.jsonl
+│   │   │           train.jsonl
+│   │   │           
+│   │   ├───v6
+│   │   │   ├───decision-v6
+│   │   │   │       calibration.jsonl
+│   │   │   │       development.jsonl
+│   │   │   │       manifest.json
+│   │   │   │       test.jsonl
+│   │   │   │       
+│   │   │   └───transfer-v6
+│   │   │           calibration.jsonl
+│   │   │           development.jsonl
+│   │   │           manifest.json
+│   │   │           test.jsonl
+│   │   │           train.jsonl
+│   │   │           
+│   │   ├───v7
+│   │   │   └───decision-v7
+│   │   │           calibration.jsonl
+│   │   │           development.jsonl
+│   │   │           manifest.json
+│   │   │           test.jsonl
+│   │   │           
+│   │   ├───v8
+│   │   │   └───decision-v8
+│   │   │           calibration.jsonl
+│   │   │           development.jsonl
+│   │   │           manifest.json
+│   │   │           test.jsonl
+│   │   │           
+│   │   └───v9
+│   │       └───transfer-v9
+│   │               calibration.jsonl
+│   │               development.jsonl
+│   │               manifest.json
+│   │               test.jsonl
+│   │               train.jsonl
+│   │               
+│   ├───experiments
+│   │   │   anchor-4b-v6.json
+│   │   │   calibration-audit-protocol.json
+│   │   │   calibration-screen-4b.json
+│   │   │   night2-08b-du.json
+│   │   │   night2-36b.json
+│   │   │   night2-4b-dense.json
+│   │   │   night2-4b-du.json
+│   │   │   night2-4b.json
+│   │   │   night2-9b-du.json
+│   │   │   night2-9b.json
+│   │   │   q35-08b.json
+│   │   │   q35-4b-nopolicy.json
+│   │   │   q35-4b-s23.json
+│   │   │   q35-4b.json
+│   │   │   q35-9b.json
+│   │   │   q35-smoke.json
+│   │   │   r4-deltas.json
+│   │   │   r4-longstate.json
+│   │   │   r4-q35-9b-inst.json
+│   │   │   r4-soft.json
+│   │   │   r5-combined.json
+│   │   │   sft-resume-e2e-08b.json
+│   │   │   sft-smoke-08b-full.json
+│   │   │   sft-smoke-08b-lora.json
+│   │   │   sft-v1-lengths.json
+│   │   │   smoke.json
+│   │   │   snapshots-e2e-08b.json
+│   │   │   v3-8b-s0.json
+│   │   │   v3-data-capacity-s1.json
+│   │   │   v3-data-capacity.json
+│   │   │   v3-smoke.json
+│   │   │   v4-4b-baseline.json
+│   │   │   v7-06b.json
+│   │   │   v7-8b.json
+│   │   │   v7-final.json
+│   │   │   v7-release-candidates.json
+│   │   │   v8-4b.json
+│   │   │   
+│   │   ├───auto
+│   │   │       arch-06b.json
+│   │   │       auto-06b-r1.json
+│   │   │       auto-4b-r0-91266.json
+│   │   │       auto-4b-r1.json
+│   │   │       knowledge-4b-v6.json
+│   │   │       lowdrift-4b-v4.json
+│   │   │       mix-4b-knobs.json
+│   │   │       mix-4b-v4.json
+│   │   │       mix-4b-v5.json
+│   │   │       recipe-4b-r1.json
+│   │   │       recipe-4b-v4-s1.json
+│   │   │       recipe-4b-v4-s2.json
+│   │   │       recipe-8b-r1.json
+│   │   │       recipe-8b-r2.json
+│   │   │       recipe-8b-s2.json
+│   │   │       
+│   │   ├───releases
+│   │   │       kev-08b-r15.json
+│   │   │       kev-27b-v2.json
+│   │   │       kev-4b-r10.json
+│   │   │       kev-4b-r8.json
+│   │   │       
+│   │   ├───round19
+│   │   │       lr2e6.json
+│   │   │       lr5e6.json
+│   │   │       olddata.json
+│   │   │       
+│   │   ├───round21
+│   │   │       lr1e6.json
+│   │   │       lr2e6.json
+│   │   │       
+│   │   ├───round22
+│   │   │       lr2e6.json
+│   │   │       
+│   │   ├───round25
+│   │   │       lr1e6.json
+│   │   │       lr2e6.json
+│   │   │       
+│   │   ├───round26
+│   │   │       lr1e6.json
+│   │   │       
+│   │   └───rounds
+│   │           r10.json
+│   │           r11.json
+│   │           r12.json
+│   │           r13.json
+│   │           r14.json
+│   │           r15.json
+│   │           r16.json
+│   │           r17.json
+│   │           r18.json
+│   │           r19.json
+│   │           r20.json
+│   │           r21.json
+│   │           r22.json
+│   │           r23.json
+│   │           r24.json
+│   │           r25.json
+│   │           r26.json
+│   │           r5.json
+│   │           r6.json
+│   │           r7.json
+│   │           r8.json
+│   │           r9.json
+│   │           
+│   ├───kev
+│   │       anchors.py
+│   │       api.py
+│   │       autoresearch.py
+│   │       benchmark.py
+│   │       budget.py
+│   │       calibrate.py
+│   │       checkpoint.py
+│   │       compare.py
+│   │       composition.py
+│   │       contrastive.py
+│   │       cuda_graphs.py
+│   │       data.py
+│   │       device.py
+│   │       evaluate.py
+│   │       experiment.py
+│   │       full_ft.py
+│   │       fused_qwen35.py
+│   │       jev.py
+│   │       metrics.py
+│   │       mirror.py
+│   │       mlx_model.py
+│   │       model.py
+│   │       plot.py
+│   │       predictors.py
+│   │       publish.py
+│   │       rounds.py
+│   │       serve.py
+│   │       shared_prefix.py
+│   │       study_v3.py
+│   │       suite.py
+│   │       train.py
+│   │       transfer_v9.py
+│   │       __init__.py
+│   │       
+│   ├───playground
+│   │   │   .gitignore
+│   │   │   AGENTS.md
+│   │   │   CLAUDE.md
+│   │   │   components.json
+│   │   │   eslint.config.mjs
+│   │   │   next.config.ts
+│   │   │   package-lock.json
+│   │   │   package.json
+│   │   │   postcss.config.mjs
+│   │   │   tsconfig.json
+│   │   │   
+│   │   ├───public
+│   │   │       file.svg
+│   │   │       globe.svg
+│   │   │       next.svg
+│   │   │       vercel.svg
+│   │   │       window.svg
+│   │   │       
+│   │   ├───scripts
+│   │   │       jev-evaluate.mjs
+│   │   │       
+│   │   └───src
+│   │       ├───app
+│   │       │   │   favicon.ico
+│   │       │   │   globals.css
+│   │       │   │   layout.tsx
+│   │       │   │   page.tsx
+│   │       │   │   
+│   │       │   └───chess
+│   │       │           page.tsx
+│   │       │           
+│   │       ├───components
+│   │       │   │   answer-card.tsx
+│   │       │   │   chess-board.tsx
+│   │       │   │   chess-game.tsx
+│   │       │   │   playground.tsx
+│   │       │   │   
+│   │       │   └───ui
+│   │       │           badge.tsx
+│   │       │           button.tsx
+│   │       │           card.tsx
+│   │       │           input.tsx
+│   │       │           label.tsx
+│   │       │           separator.tsx
+│   │       │           switch.tsx
+│   │       │           tabs.tsx
+│   │       │           textarea.tsx
+│   │       │           
+│   │       └───lib
+│   │               chess.ts
+│   │               kev.ts
+│   │               utils.ts
+│   │               
+│   ├───runs
+│   │   │   autoresearch.jsonl
+│   │   │   kev-vs-jev-transfer-v1.json
+│   │   │   kev-vs-jev-v1.json
+│   │   │   leaderboard.jsonl
+│   │   │   leaderboard.md
+│   │   │   r23-reads-27b-k-w50.json
+│   │   │   r23-reads-27b-k-w70.json
+│   │   │   r23-reads-27b-k-w85-locked.json
+│   │   │   r23-reads-27b-k-w85-tests.json
+│   │   │   r23-reads-27b-k-w85.json
+│   │   │   r23-reads-27b-kh-w50.json
+│   │   │   r23-reads-27b-kh-w70.json
+│   │   │   r23-reads-27b-kh-w85.json
+│   │   │   r24-reads-27b-r22-final-locked.json
+│   │   │   r24-reads-27b-r22-final-tests.json
+│   │   │   r25-reads-27b-lr1e6-s25-retry.json
+│   │   │   r25-reads-27b-lr1e6-s25.json
+│   │   │   r25-reads-27b-lr1e6-s50.json
+│   │   │   r25-reads-27b-lr1e6-s75.json
+│   │   │   r25-reads-27b-lr1e6.json
+│   │   │   r25-reads-27b-lr2e6-s25.json
+│   │   │   r25-reads-27b-lr2e6-s50.json
+│   │   │   r25-reads-27b-lr2e6-s75.json
+│   │   │   r25-reads-27b-lr2e6.json
+│   │   │   
+│   │   ├───ablation-v2
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-kev-0.5b
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       
+│   │   │   ├───01-kev2
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───03-trial-3
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───04-trial-4
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───05-trial-5
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───06-trial-6
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───07-trial-7
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───anchor-4b-v6
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───02-trial-2
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───arch-06b
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───03-trial-3
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───04-trial-4
+│   │   │   │       provenance.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───05-trial-5
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───06-trial-6
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───07-trial-7
+│   │   │           provenance.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───auto-06b-r1
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───03-trial-3
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───04-trial-4
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───05-trial-5
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───06-trial-6
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───07-trial-7
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───auto-4b-r0-91266
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───03-trial-3
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───04-trial-4
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───05-trial-5
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───06-trial-6
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───auto-4b-r1
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───03-trial-3
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───04-trial-4
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───05-trial-5
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───backbone-v1
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-kev-0.5b
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───03-trial-3
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───04-trial-4
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───binding-diagnostic-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───breadth-v1-autojev
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───breadth-v1-jev
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───breadth-v1-kev-27b
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───breadth-v1-kev-4b
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───breadth-v1-report
+│   │   │       report.json
+│   │   │       report.md
+│   │   │       
+│   │   ├───calibration-audit-v1
+│   │   │       failure_cases_blind.json
+│   │   │       failure_cases_key.json
+│   │   │       report.json
+│   │   │       risk-coverage-v2.png
+│   │   │       summary.json
+│   │   │       
+│   │   ├───calibration-screen-4b-s11-r2
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-kev-4b@485ace8703592fcf405488b262449990824cfed1
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───03-trial-3
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───04-trial-4
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───calibration-screen-review-v1
+│   │   │       report.json
+│   │   │       risk-coverage-final.png
+│   │   │       summary.json
+│   │   │       
+│   │   ├───calibration-screen-startup
+│   │   │       report.json
+│   │   │       
+│   │   ├───documents-v1-work
+│   │   │   │   adjudications.jsonl
+│   │   │   │   spot_check.jsonl
+│   │   │   │   spot_check_reviews.jsonl
+│   │   │   │   
+│   │   │   ├───candidates
+│   │   │   │       build.json
+│   │   │   │       
+│   │   │   └───labels
+│   │   │           spend.json
+│   │   │           
+│   │   ├───dt1-27b
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───dt1-P08
+│   │   │       report.json
+│   │   │       
+│   │   ├───dt1-P4r8
+│   │   │       report.json
+│   │   │       
+│   │   ├───fused-27b-b200
+│   │   │       report.json
+│   │   │       
+│   │   ├───fused-27b-b300
+│   │   │       report.json
+│   │   │       
+│   │   ├───fused-27b-h100
+│   │   │       report.json
+│   │   │       
+│   │   ├───fused-27b-h200
+│   │   │       report.json
+│   │   │       
+│   │   ├───fused-27b-h200-iso
+│   │   │       report.json
+│   │   │       
+│   │   ├───fused-27b-rtx6000
+│   │   │       report.json
+│   │   │       
+│   │   ├───fused-4b-h100
+│   │   │       report.json
+│   │   │       
+│   │   ├───fused-4b-l40s
+│   │   │       report.json
+│   │   │       
+│   │   ├───fused-9b-h100
+│   │   │       report.json
+│   │   │       
+│   │   ├───gatecheck-trial4
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-checkpoint
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           
+│   │   ├───grouping-4b-h100
+│   │   │       report.json
+│   │   │       
+│   │   ├───grouping-4b-h100-main
+│   │   │       report.json
+│   │   │       
+│   │   ├───hv1-27b
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───jev-decision-v2
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───jev-decision-v4
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───jev-devtools-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───jev-ekzhang-mmlupro-v1
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───jev-hard-v1-r2
+│   │   │       report.json
+│   │   │       
+│   │   ├───jev-scienthoon-v1
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───jev-semif-v1
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───jev-transfer-v2
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───jev-transfer-v4
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───jev-transfer-v9
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───jev-typesafe-v1
+│   │   │       comparison.json
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───jev-wanli-v1
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───jevbench-public
+│   │   │   ├───kev-08b
+│   │   │   │       easy.jsonl
+│   │   │   │       hard.jsonl
+│   │   │   │       original.jsonl
+│   │   │   │       summary-easy.json
+│   │   │   │       summary-hard.json
+│   │   │   │       summary-original.json
+│   │   │   │       
+│   │   │   ├───kev-08b-r15
+│   │   │   │       easy.jsonl
+│   │   │   │       hard.jsonl
+│   │   │   │       original.jsonl
+│   │   │   │       paired-vs-kev-08b.json
+│   │   │   │       summary-easy.json
+│   │   │   │       summary-hard.json
+│   │   │   │       summary-original.json
+│   │   │   │       
+│   │   │   ├───kev-4b-r10
+│   │   │   │       easy.jsonl
+│   │   │   │       hard.jsonl
+│   │   │   │       original.jsonl
+│   │   │   │       paired-vs-kev-4b-r8.json
+│   │   │   │       summary-easy.json
+│   │   │   │       summary-hard.json
+│   │   │   │       summary-original.json
+│   │   │   │       
+│   │   │   └───kev-4b-r8
+│   │   │           easy.jsonl
+│   │   │           hard.jsonl
+│   │   │           original.jsonl
+│   │   │           summary-easy.json
+│   │   │           summary-hard.json
+│   │   │           summary-original.json
+│   │   │           
+│   │   ├───kev
+│   │   │       eval.json
+│   │   │       
+│   │   ├───kev-05b-transfer-v4
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-4b-binding-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-4b-ekzhang-mmlupro-2
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-4b-scienthoon-v1-gpu
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-4b-semif-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-4b-transfer-v9
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-kev-4b
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           
+│   │   ├───kev-4b-typesafe-v1
+│   │   │       calibration.json
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───kev-4b-v4df
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-4b-wanli-v1
+│   │   │       calibration.json
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───kev-8b-qwen3-ekzhang-mmlupro-2
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-8b-scienthoon-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-8b-semif-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-8b-transfer-v9
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-kev-8b
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           
+│   │   ├───kev-9b-binding-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-9b-ekzhang-mmlupro-2
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-9b-typesafe-v1
+│   │   │       calibration.json
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───kev-9b-v4df
+│   │   │       report.json
+│   │   │       
+│   │   ├───kev-9b-wanli-v1
+│   │   │       calibration.json
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───kev-typesafe-v1
+│   │   │       comparison.json
+│   │   │       
+│   │   ├───knowledge-4b-v6
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───lc-serve-27b-h200-3
+│   │   │       report.json
+│   │   │       
+│   │   ├───locked
+│   │   │   ├───kev-06b-preview-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-06b-v7-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-08b-night2-du-ungated
+│   │   │   │   │   summary.json
+│   │   │   │   │   
+│   │   │   │   └───transfer
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───kev-08b-q35-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-08b-r15-ungated
+│   │   │   │   │   summary.json
+│   │   │   │   │   
+│   │   │   │   └───transfer
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───kev-27b-r23-ungated
+│   │   │   │   │   summary.json
+│   │   │   │   │   
+│   │   │   │   └───transfer
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───kev-27b-r24-ungated
+│   │   │   │   │   summary.json
+│   │   │   │   │   
+│   │   │   │   └───transfer
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───kev-27b-v2-ungated
+│   │   │   │   │   summary.json
+│   │   │   │   │   
+│   │   │   │   └───transfer
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───kev-4b-night2-all-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-4b-night2-du-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-4b-preview-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-4b-q35
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-4b-r10-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-4b-r8-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-4b-v7-preview-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-8b-preview-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-8b-v7-preview-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-9b-night2-all-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   ├───kev-9b-night2-du-ungated
+│   │   │   │       summary.json
+│   │   │   │       
+│   │   │   └───kev-9b-q35
+│   │   │           summary.json
+│   │   │           
+│   │   ├───logs
+│   │   │       train_kev.log
+│   │   │       train_kev_holdout.log
+│   │   │       
+│   │   ├───longdoc-v1-jev
+│   │   │       rejected.json
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───longdoc-v1-kev-27b
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───longdoc-v1-kev-27b-prefix-path
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───longdoc-v1-r19-sft
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───longdoc-v1-report
+│   │   │       README.md
+│   │   │       report.json
+│   │   │       report.md
+│   │   │       
+│   │   ├───longdoc-v1-serving-27b-h200
+│   │   │       report.json
+│   │   │       
+│   │   ├───lowdrift-4b-v4
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───03-trial-3
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───mix-4b-knobs
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───03-trial-3
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───mix-4b-v4-b
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───mix-4b-v5
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───mlx-parity-0.8b
+│   │   │       report.json
+│   │   │       
+│   │   ├───mlx-parity-4b
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-36b-lr5e5-v9b
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-all-sci
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-all-v4df
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-all-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-assert-sci
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-assert-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-dates-sci
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-dates-v4df
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-dates-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-du-sci
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-du-v4df
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-du-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-unk-sci
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-4b-unk-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-all-sci
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-all-v4df
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-all-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-assert-sci
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-assert-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-dates-sci
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-dates-v4df
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-dates-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-du-sci
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-du-v4df
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-du-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-unk-sci
+│   │   │       report.json
+│   │   │       
+│   │   ├───n2-9b-unk-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───night2-08b-du2
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │       │   provenance.json
+│   │   │       │   result.json
+│   │   │       │   train.log
+│   │   │       │   
+│   │   │       └───development
+│   │   │               rows.json
+│   │   │               
+│   │   ├───night2-36b6
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───night2-4b
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───03-trial-3
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───night2-4b-dense2
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───night2-4b-du
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │       │   provenance.json
+│   │   │       │   result.json
+│   │   │       │   train.log
+│   │   │       │   
+│   │   │       └───development
+│   │   │               rows.json
+│   │   │               
+│   │   ├───night2-9b
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───03-trial-3
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───night2-9b-du
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │       │   provenance.json
+│   │   │       │   result.json
+│   │   │       │   train.log
+│   │   │       │   
+│   │   │       └───development
+│   │   │               rows.json
+│   │   │               
+│   │   ├───probes
+│   │   │   ├───qwen3-06b-base-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen3-30b-a3b-base-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen3-4b-base-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen3-8b-base-base-transfer-v9
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen3-8b-base-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-08b-base-base-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-2b-base-base-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-35b-a3b-base-base-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-35b-a3b-base-base-transfer-v9
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-4b-base-base-adapted-q35-4b-s1-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-4b-base-base-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-4b-base-base-transfer-v9
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-4b-semif-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-9b-base-base-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-9b-base-base-transfer-v9
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-9b-base-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-9b-base-transfer-v9
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-9b-semif-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen35-9b-semif-transfer-v9
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen36-35b-a3b-base-inst-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───qwen36-35b-a3b-semif-transfer-v4
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   └───qwen38-27b-base-transfer-v9
+│   │   │           report.json
+│   │   │           
+│   │   ├───q35-08b
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───02-trial-2
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───q35-08b-s2-scienthoon-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-08b-s2-semif-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-08b-s2-transfer-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-4b
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───q35-4b-nopolicy
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───q35-4b-s1-scienthoon-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-4b-s1-semif-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-4b-s1-transfer-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-4b-s2-transfer-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-4b-s23
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───q35-9b
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───q35-9b-s0-scienthoon-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-9b-s0-semif-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-9b-s0-transfer-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-9b-s1-scienthoon-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-9b-s1-semif-v1
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-9b-s1-transfer-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───q35-smoke
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───r10-4b-skills-devtools
+│   │   │       report.json
+│   │   │       
+│   │   ├───r10-readout
+│   │   │       round10.json
+│   │   │       
+│   │   ├───r10-skills
+│   │   │   └───00-trial-0
+│   │   │           result.json
+│   │   │           
+│   │   ├───r10-verdict
+│   │   │       4b-locked.json
+│   │   │       4b-tests.json
+│   │   │       
+│   │   ├───r12c-08b-parent-devtest
+│   │   │       report.json
+│   │   │       
+│   │   ├───r13-readout
+│   │   │       round13.json
+│   │   │       
+│   │   ├───r15-08b
+│   │   │   └───00-trial-0
+│   │   │       │   result.json
+│   │   │       │   
+│   │   │       └───development
+│   │   │               rows.json
+│   │   │               
+│   │   ├───r15-08b-a-devtools
+│   │   │       report.json
+│   │   │       
+│   │   ├───r15-08b-a-r3test
+│   │   │       report.json
+│   │   │       
+│   │   ├───r15-readout
+│   │   │       round15.json
+│   │   │       
+│   │   ├───r15-verdict
+│   │   │       08b-locked.json
+│   │   │       08b-tests.json
+│   │   │       
+│   │   ├───r15c-08b-cand-devtest
+│   │   │       report.json
+│   │   │       
+│   │   ├───r17-27b-r10k-lr2e5-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr2e6
+│   │   │   └───00-trial-0
+│   │   │       │   provenance.json
+│   │   │       │   result.json
+│   │   │       │   
+│   │   │       ├───calibration
+│   │   │       │       temperature.json
+│   │   │       │       
+│   │   │       └───transfer
+│   │   │               rows.json
+│   │   │               
+│   │   ├───r19-27b-lr2e6-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr2e6-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr2e6-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr2e6-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr2e6-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr2e6-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr2e6-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr2e6-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr2e6-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr2e6-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr5e6
+│   │   │   └───00-trial-0
+│   │   │       │   provenance.json
+│   │   │       │   result.json
+│   │   │       │   
+│   │   │       ├───calibration
+│   │   │       │       temperature.json
+│   │   │       │       
+│   │   │       └───transfer
+│   │   │               rows.json
+│   │   │               
+│   │   ├───r19-27b-lr5e6-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr5e6-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr5e6-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr5e6-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr5e6-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr5e6-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr5e6-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr5e6-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr5e6-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-lr5e6-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-olddata
+│   │   │   └───00-trial-0
+│   │   │       │   provenance.json
+│   │   │       │   result.json
+│   │   │       │   
+│   │   │       ├───calibration
+│   │   │       │       temperature.json
+│   │   │       │       
+│   │   │       └───transfer
+│   │   │               rows.json
+│   │   │               
+│   │   ├───r19-27b-olddata-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-olddata-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-olddata-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-olddata-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-olddata-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-olddata-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-olddata-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-olddata-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-olddata-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-27b-olddata-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-breadth-report
+│   │   │       report.json
+│   │   │       report.md
+│   │   │       
+│   │   ├───r19-P27-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r19-readout
+│   │   │       b-vs-c.json
+│   │   │       private-rows.json
+│   │   │       round19.json
+│   │   │       
+│   │   ├───r20-27b-a-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w50-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w70-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-a-w85-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w50-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w70-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-27b-b-w85-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r20-breadth-report
+│   │   │       report.json
+│   │   │       report.md
+│   │   │       
+│   │   ├───r20-readout
+│   │   │       round20.json
+│   │   │       served.json
+│   │   │       
+│   │   ├───r20-scienthoon
+│   │   │       analysis.md
+│   │   │       drift.json
+│   │   │       
+│   │   ├───r20-wise
+│   │   │   ├───27b-a-w50
+│   │   │   │       interpolation.json
+│   │   │   │       
+│   │   │   ├───27b-a-w70
+│   │   │   │       interpolation.json
+│   │   │   │       
+│   │   │   ├───27b-a-w85
+│   │   │   │       interpolation.json
+│   │   │   │       
+│   │   │   ├───27b-b-w50
+│   │   │   │       interpolation.json
+│   │   │   │       
+│   │   │   ├───27b-b-w70
+│   │   │   │       interpolation.json
+│   │   │   │       
+│   │   │   └───27b-b-w85
+│   │   │           interpolation.json
+│   │   │           
+│   │   ├───r21-P27-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r21-P27-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r21-P27-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6
+│   │   │   └───00-trial-0
+│   │   │       │   provenance.json
+│   │   │       │   result-public.json
+│   │   │       │   
+│   │   │       ├───calibration
+│   │   │       │       temperature.json
+│   │   │       │       
+│   │   │       ├───snapshots
+│   │   │       │   ├───step-0000285
+│   │   │       │   │   └───checkpoint
+│   │   │       │   │           snapshot.json
+│   │   │       │   │           
+│   │   │       │   ├───step-0000570
+│   │   │       │   │   └───checkpoint
+│   │   │       │   │           snapshot.json
+│   │   │       │   │           
+│   │   │       │   └───step-0000855
+│   │   │       │       └───checkpoint
+│   │   │       │               snapshot.json
+│   │   │       │               
+│   │   │       └───transfer
+│   │   │               rows.json
+│   │   │               
+│   │   ├───r22-27b-lr2e6-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s25-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s50-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-s75-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-27b-lr2e6-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r22-breadth-report
+│   │   │       report.json
+│   │   │       report.md
+│   │   │       
+│   │   ├───r22-readout
+│   │   │       final.log
+│   │   │       monitor.log
+│   │   │       private-rows.json
+│   │   │       round22.json
+│   │   │       
+│   │   ├───r22-scienthoon
+│   │   │       drift.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w50-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w70-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-k-w85-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w50-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w70-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-27b-kh-w85-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23-breadth-report
+│   │   │       report.json
+│   │   │       report.md
+│   │   │       
+│   │   ├───r23-readout
+│   │   │       private-rows.json
+│   │   │       readout.txt
+│   │   │       round23.json
+│   │   │       tables.md
+│   │   │       
+│   │   ├───r23-verdict
+│   │   │       27b-locked.json
+│   │   │       27b-tests-t-interval.json
+│   │   │       27b-tests.json
+│   │   │       private-rows-longdoc.json
+│   │   │       private-rows.json
+│   │   │       
+│   │   ├───r23-wise
+│   │   │   ├───27b-k-w50
+│   │   │   │       interpolation.json
+│   │   │   │       
+│   │   │   ├───27b-k-w70
+│   │   │   │       interpolation.json
+│   │   │   │       
+│   │   │   ├───27b-k-w85
+│   │   │   │       interpolation.json
+│   │   │   │       
+│   │   │   ├───27b-kh-w50
+│   │   │   │       interpolation.json
+│   │   │   │       
+│   │   │   ├───27b-kh-w70
+│   │   │   │       interpolation.json
+│   │   │   │       
+│   │   │   └───27b-kh-w85
+│   │   │           interpolation.json
+│   │   │           
+│   │   ├───r23c-27b-cand-breadthtest
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23c-27b-cand-devtest
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23c-27b-cand-docs1test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23c-27b-cand-docs2
+│   │   │       report.json
+│   │   │       
+│   │   ├───r23c-27b-cand-hardtest
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r23c-27b-cand-longdoctest
+│   │   │       report.json
+│   │   │       
+│   │   ├───r24-breadth-report
+│   │   │       report.json
+│   │   │       report.md
+│   │   │       
+│   │   ├───r24-readout
+│   │   │       private-exclude.json
+│   │   │       private-rows.json
+│   │   │       readout.txt
+│   │   │       round24.json
+│   │   │       
+│   │   ├───r24-verdict
+│   │   │       27b-locked.json
+│   │   │       27b-tests-t-interval.json
+│   │   │       27b-tests.json
+│   │   │       private-rows-longdoc.json
+│   │   │       private-rows.json
+│   │   │       
+│   │   ├───r24c-27b-cand-breadthtest
+│   │   │       report.json
+│   │   │       
+│   │   ├───r24c-27b-cand-devtest
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r24c-27b-cand-docs1test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r24c-27b-cand-docs2
+│   │   │       report.json
+│   │   │       
+│   │   ├───r24c-27b-cand-hardtest
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r24c-27b-cand-longdoctest
+│   │   │       report.json
+│   │   │       
+│   │   ├───r24c-27b-parent-breadthtest
+│   │   │       report.json
+│   │   │       
+│   │   ├───r24c-27b-parent-devtest
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r24c-27b-parent-docs1test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r24c-27b-parent-docs2
+│   │   │       report.json
+│   │   │       
+│   │   ├───r24c-27b-parent-hardtest
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r24c-27b-parent-longdoctest
+│   │   │       report.json
+│   │   │       
+│   │   ├───r24c-autojev-breadthtest
+│   │   │       report.json
+│   │   │       
+│   │   ├───r24c-jev-breadthtest
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6
+│   │   │   └───00-trial-0
+│   │   │       │   provenance.json
+│   │   │       │   result-public.json
+│   │   │       │   
+│   │   │       ├───calibration
+│   │   │       │       temperature.json
+│   │   │       │       
+│   │   │       ├───checkpoint
+│   │   │       │       training_metrics.json
+│   │   │       │       
+│   │   │       ├───snapshots
+│   │   │       │   ├───step-0000089
+│   │   │       │   │   └───checkpoint
+│   │   │       │   │           snapshot.json
+│   │   │       │   │           
+│   │   │       │   ├───step-0000178
+│   │   │       │   │   └───checkpoint
+│   │   │       │   │           snapshot.json
+│   │   │       │   │           
+│   │   │       │   └───step-0000267
+│   │   │       │       └───checkpoint
+│   │   │       │               snapshot.json
+│   │   │       │               
+│   │   │       └───transfer
+│   │   │               rows.json
+│   │   │               
+│   │   ├───r25-27b-lr1e6-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s25-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s50-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-s75-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr1e6-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6
+│   │   │   └───00-trial-0
+│   │   │       │   provenance.json
+│   │   │       │   result-public.json
+│   │   │       │   
+│   │   │       ├───calibration
+│   │   │       │       temperature.json
+│   │   │       │       
+│   │   │       ├───checkpoint
+│   │   │       │       training_metrics.json
+│   │   │       │       
+│   │   │       ├───snapshots
+│   │   │       │   ├───step-0000089
+│   │   │       │   │   └───checkpoint
+│   │   │       │   │           snapshot.json
+│   │   │       │   │           
+│   │   │       │   ├───step-0000178
+│   │   │       │   │   └───checkpoint
+│   │   │       │   │           snapshot.json
+│   │   │       │   │           
+│   │   │       │   └───step-0000267
+│   │   │       │       └───checkpoint
+│   │   │       │               snapshot.json
+│   │   │       │               
+│   │   │       └───transfer
+│   │   │               rows.json
+│   │   │               
+│   │   ├───r25-27b-lr2e6-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s25-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s50-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-breadth
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-devtools
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-hard
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-r3cal
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-s75-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-transfer4
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-27b-lr2e6-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-init
+│   │   │   └───kev-27b-merged
+│   │   │           merge.json
+│   │   │           
+│   │   ├───r25-init-kev-27b-merged-transfer4
+│   │   │       parity.json
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r25-readout
+│   │   │       breadth-ece-by-t.json
+│   │   │       private-rows.json
+│   │   │       r25-breadth-ece-t.py
+│   │   │       r25-gate.py
+│   │   │       r25-tables.py
+│   │   │       r25-transfer4-vs-parent.py
+│   │   │       r25-vs-w85-table.py
+│   │   │       r25-vs-w85.py
+│   │   │       readout.txt
+│   │   │       round25.json
+│   │   │       tables.md
+│   │   │       transfer4-vs-parent.json
+│   │   │       vs-w85-27b-lr1e6-s25.json
+│   │   │       vs-w85-27b-lr1e6-s50.json
+│   │   │       vs-w85-27b-lr1e6-s75.json
+│   │   │       vs-w85-27b-lr1e6.json
+│   │   │       vs-w85-27b-lr2e6-s25.json
+│   │   │       vs-w85-27b-lr2e6-s50.json
+│   │   │       vs-w85-27b-lr2e6-s75.json
+│   │   │       vs-w85-27b-lr2e6.json
+│   │   │       vs-w85.md
+│   │   │       
+│   │   ├───r4-average-08b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-average-4b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-average-9b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-deltas
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │   │   provenance.json
+│   │   │   │   │   result.json
+│   │   │   │   │   train.log
+│   │   │   │   │   
+│   │   │   │   └───development
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───02-trial-2
+│   │   │   │       provenance.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───03-trial-3
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───04-trial-4
+│   │   │   │       provenance.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───05-trial-5
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───r4-kev-4b-longstate-2
+│   │   │       longstate.json
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r4-kev-4b-scienthoon-df
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-4b-scienthoon-raw
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-4b-semif-df
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-4b-semif-raw
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-4b-typesafe-df
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-4b-typesafe-raw
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-4b-v4-one
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-4b-v4-rot
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-4b-wanli-df
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-4b-wanli-raw
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-9b-longstate-2
+│   │   │       longstate.json
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r4-kev-9b-scienthoon-df
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-9b-scienthoon-raw
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-9b-semif-df
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-9b-semif-raw
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-9b-typesafe-df
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-9b-typesafe-raw
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-9b-v4-one
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-9b-v4-rot
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-9b-wanli-df
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-kev-9b-wanli-raw
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-longstate
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───r4-longstate-control-ls
+│   │   │       longstate.json
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r4-longstate-long-ls
+│   │   │       longstate.json
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r4-mlx-parity-0.8b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-mlx-parity-4b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-q35-9b-inst2
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───r4-readout-ambiguity-4b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-readout-ambiguity-9b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-readout-distill-08b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-readout-longstate-4b-short
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-readout-posttrained-9b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-reliability-4b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-reliability-9b
+│   │   │       report.json
+│   │   │       
+│   │   ├───r4-soft
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │   │   provenance.json
+│   │   │   │   │   result.json
+│   │   │   │   │   train.log
+│   │   │   │   │   
+│   │   │   │   └───development
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───01-trial-1
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───02-trial-2
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───r5-combined
+│   │   │   ├───00-trial-0
+│   │   │   │   │   provenance.json
+│   │   │   │   │   result.json
+│   │   │   │   │   train.log
+│   │   │   │   │   
+│   │   │   │   └───development
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───01-trial-1
+│   │   │   │   │   provenance.json
+│   │   │   │   │   result.json
+│   │   │   │   │   train.log
+│   │   │   │   │   
+│   │   │   │   └───development
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───02-trial-2
+│   │   │   │   │   provenance.json
+│   │   │   │   │   result.json
+│   │   │   │   │   train.log
+│   │   │   │   │   
+│   │   │   │   └───development
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───03-trial-3
+│   │   │   │   │   provenance.json
+│   │   │   │   │   result.json
+│   │   │   │   │   train.log
+│   │   │   │   │   
+│   │   │   │   └───development
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   ├───04-trial-4
+│   │   │   │   │   provenance.json
+│   │   │   │   │   result.json
+│   │   │   │   │   train.log
+│   │   │   │   │   
+│   │   │   │   └───development
+│   │   │   │           rows.json
+│   │   │   │           
+│   │   │   └───05-trial-5
+│   │   │       │   provenance.json
+│   │   │       │   result.json
+│   │   │       │   train.log
+│   │   │       │   
+│   │   │       └───development
+│   │   │               rows.json
+│   │   │               
+│   │   ├───r5-verdict
+│   │   │       0.8b.json
+│   │   │       4b.json
+│   │   │       9b-wanli-flips.json
+│   │   │       9b.json
+│   │   │       
+│   │   ├───r5d-H4-scienthoon
+│   │   │       report.json
+│   │   │       
+│   │   ├───r5d-H4-semif
+│   │   │       report.json
+│   │   │       
+│   │   ├───r5d-H4-typesafe
+│   │   │       report.json
+│   │   │       
+│   │   ├───r5d-H4-wanli
+│   │   │       report.json
+│   │   │       
+│   │   ├───r5d-L4v1-scienthoon
+│   │   │       report.json
+│   │   │       
+│   │   ├───r5d-L4v1-semif
+│   │   │       report.json
+│   │   │       
+│   │   ├───r5d-L4v1-typesafe
+│   │   │       report.json
+│   │   │       
+│   │   ├───r5d-L4v1-wanli
+│   │   │       report.json
+│   │   │       
+│   │   ├───r5r-C08-long
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C08-r5test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C08-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C08-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C08-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C08-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C08-wanli
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C4-long
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C4-r5test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C4-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C4-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C4-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C4-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C4-wanli
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C9-long
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C9-r5test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C9-s2-long
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C9-s2-r5test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C9-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C9-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C9-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C9-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-C9-wanli
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-H4-long
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-H4-r5test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-H9-long
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-H9-r5test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P08-long
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P08-r5test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P08-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P08-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P08-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P08-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P08-wanli
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P4-long
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P4-r5test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P4-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P4-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P4-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P4-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P4-wanli
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P9-long
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P9-r5test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P9-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P9-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P9-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P9-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-P9-wanli
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-S9-long
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r5r-S9-r5test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r6-27b-v2
+│   │   │   └───01-trial-1
+│   │   │       │   provenance.json
+│   │   │       │   result.json
+│   │   │       │   
+│   │   │       ├───development
+│   │   │       │       report.json
+│   │   │       │       rows.json
+│   │   │       │       
+│   │   │       └───transfer
+│   │   │               report.json
+│   │   │               rows.json
+│   │   │               
+│   │   ├───r6-27bv2-s1-v9
+│   │   │       report.json
+│   │   │       
+│   │   ├───r6-27bv2-s2-docs
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r6-27bv2-s2-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r6-27bv2-s2-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r6-27bv2-s2-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r6-27bv2-s2-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r6-27bv2-s2-wanli2
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───r8-readout
+│   │   │       round8.json
+│   │   │       
+│   │   ├───r8-small
+│   │   │   └───00-trial-0
+│   │   │           result.json
+│   │   │           
+│   │   ├───r9-readout
+│   │   │       round9.json
+│   │   │       
+│   │   ├───rc-cand-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───rc-cand-scienthoon
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───rc-cand-semif
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───rc-cand-typesafe
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───rc-cand-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───rc-cand-wanli
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───rc-ctrl-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───rc-ctrl-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───rc-parent-r3test
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───rc-parent-v9
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───rc-verdict
+│   │   │       report.json
+│   │   │       
+│   │   ├───recipe-4b-r1
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───03-trial-3
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───04-trial-4
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───recipe-4b-v4-s1
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───recipe-4b-v4-s2
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───recipe-8b-r1
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───recipe-8b-r2
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───recipe-8b-s2
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───release
+│   │   │   │   kev-08b-r15.json
+│   │   │   │   kev-27b-v2.json
+│   │   │   │   kev-4b-r10.json
+│   │   │   │   kev-4b-r8.json
+│   │   │   │   
+│   │   │   └───kev-27b-v2
+│   │   │           result.json
+│   │   │           
+│   │   ├───research-jev-v1
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───research-kev-v01
+│   │   │       report.json
+│   │   │       
+│   │   ├───research-kev2-dev
+│   │   │       report.json
+│   │   │       
+│   │   ├───research-smoke-runner
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───research-smoke-runner-v2
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───research-smoke-runner-verified
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───serve-08b-l4
+│   │   │       report.json
+│   │   │       
+│   │   ├───serve-4b-l40s
+│   │   │       report.json
+│   │   │       
+│   │   ├───serve-9b-h100
+│   │   │       report.json
+│   │   │       
+│   │   ├───serve-9b-l40s
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-08b-l4
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-27b-h200
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-27b-h200-iso
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-27b-h200-main
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-27b-r23
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-27b-r23-long
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-27b-r24
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-27b-r24-long
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-4b-a100
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-4b-h100
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-4b-l4
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-4b-l40s
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-9b-a100
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-9b-h100
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-9b-h100-iso
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-9b-l40s
+│   │   │       report.json
+│   │   │       
+│   │   ├───serving-sft-smoke-08b-full-l4
+│   │   │       report.json
+│   │   │       
+│   │   ├───sft-probe
+│   │   │   ├───lc-27b-8xh200
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───lc-27b-8xh200-mask-ab
+│   │   │   │       report.json
+│   │   │   │       
+│   │   │   ├───r22-ceiling-27b-8xh200
+│   │   │   │       passes.json
+│   │   │   │       report.json
+│   │   │   │       train-r21_step62_rank1.log
+│   │   │   │       
+│   │   │   ├───sft-probe-27b-8xh200
+│   │   │   │       report.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───sft-probe-27b-8xh200-balanced
+│   │   │   │       report.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───sft-probe-27b-h200
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───sft-probe-27b-h200-b
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───sft-probe-27b-h200-c
+│   │   │   │       report.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───sft2-27b-8xh200-all
+│   │   │   │       report.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───sft2-27b-8xh200-all-balanced
+│   │   │   │       report.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───sft2-27b-8xh200-all-noconv2
+│   │   │   │       report.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───sft2-27b-8xh200-synthetic-rows
+│   │   │   │       report.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───sft2-27b-8xh200-synthetic-rows-balanced
+│   │   │   │       report.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───sft2-27b-8xh200-synthetic-shared
+│   │   │   │       report.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───sft2-27b-8xh200-synthetic-shared-balanced
+│   │   │           report.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───sft-resume-e2e-killed
+│   │   │   │   summary.json
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───sft-resume-e2e-whole
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───sft-smoke-08b-full
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───sft-smoke-08b-lora
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───smoke
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───smoke-anchor
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───smoke-arch
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───smoke-hl
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───smoke-mix
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───snapshots-e2e-08b
+│   │   │   │   summary.json
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───snapshots-e2e-08b-final
+│   │   │       report.json
+│   │   │       
+│   │   ├───snapshots-e2e-08b-step600
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r19-a-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r19-a-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r19-a-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───sweep-r19-a-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r19-b-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r19-b-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r19-b-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───sweep-r19-b-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-a-w50-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-a-w50-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-a-w50-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───sweep-r20-a-w50-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-a-w70-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-a-w70-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-a-w70-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───sweep-r20-a-w70-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-a-w85-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-a-w85-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-a-w85-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───sweep-r20-a-w85-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-b-w50-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-b-w50-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-b-w50-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───sweep-r20-b-w50-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-b-w70-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-b-w70-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-b-w70-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───sweep-r20-b-w70-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-b-w85-agentsood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-b-w85-guardood
+│   │   │       report.json
+│   │   │       
+│   │   ├───sweep-r20-b-w85-longdoc
+│   │   │       report.json
+│   │   │       rows.json
+│   │   │       
+│   │   ├───sweep-r20-b-w85-ood
+│   │   │       report.json
+│   │   │       
+│   │   ├───transfer-jev-v1
+│   │   │       report.json
+│   │   │       usage.json
+│   │   │       
+│   │   ├───transfer-jev-v1.failed-500
+│   │   │       usage.json
+│   │   │       
+│   │   ├───transfer-kev-v01
+│   │   │       report.json
+│   │   │       
+│   │   ├───v3-8b-s0
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v3-data-capacity-s0
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───03-trial-3
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v3-data-capacity-s1
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       comparison.json
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───03-trial-3
+│   │   │           comparison.json
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v3-smoke-02
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v4-06b-hardened
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───02-trial-2
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v4-4b-baseline
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v7-06b
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───02-trial-2
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v7-4b-s2
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   └───00-trial-0
+│   │   │           provenance.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v7-8b
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           provenance.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v7-final
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───02-trial-2
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v7-rc3
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───01-trial-1
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   ├───02-trial-2
+│   │   │   │       provenance.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───03-trial-3
+│   │   │           provenance.json
+│   │   │           train.log
+│   │   │           
+│   │   ├───v8-4b
+│   │   │   │   results.jsonl
+│   │   │   │   
+│   │   │   ├───00-trial-0
+│   │   │   │       provenance.json
+│   │   │   │       result.json
+│   │   │   │       train.log
+│   │   │   │       
+│   │   │   └───01-trial-1
+│   │   │           provenance.json
+│   │   │           result.json
+│   │   │           train.log
+│   │   │           
+│   │   └───wise-4b
+│   │       ├───transfer-a0.5
+│   │       │       report.json
+│   │       │       
+│   │       └───transfer-a0.75
+│   │               report.json
+│   │               
+│   ├───scripts
+│   │       base_mmlu_probe.py
+│   │       breadth_reads.py
+│   │       breadth_report.py
+│   │       build_binding_diagnostic.py
+│   │       build_breadth_v1.py
+│   │       build_devtools_v1.py
+│   │       build_documents_v1.py
+│   │       build_documents_v2.py
+│   │       build_hard_v1.py
+│   │       build_longdoc_v1.py
+│   │       build_long_states.py
+│   │       build_night2_data.py
+│   │       build_soft_targets.py
+│   │       calibrate_checkpoint.py
+│   │       calibration_audit.py
+│   │       chartstyle.py
+│   │       checkpoint_average.py
+│   │       compare_night2.py
+│   │       compare_q35.py
+│   │       compare_typesafe.py
+│   │       devtools_v1_licences.json
+│   │       freeze_calibration_audit.py
+│   │       freeze_documents_v1.py
+│   │       freeze_semif.py
+│   │       freeze_semif_external.py
+│   │       hard_v1_common.py
+│   │       hard_v1_families.py
+│   │       hard_v1_numeric.py
+│   │       hard_v1_policy.py
+│   │       interpolate_checkpoint.py
+│   │       jevbench_paired.py
+│   │       label_documents_v1.py
+│   │       longdoc_report.py
+│   │       longdoc_serving.py
+│   │       longdoc_v1_synthetic.py
+│   │       longstate_report.py
+│   │       merge_lora_checkpoint.py
+│   │       mlx_parity.py
+│   │       modal_retry_probe.py
+│   │       plot_calibration_audit.py
+│   │       plot_family.py
+│   │       plot_tweet.py
+│   │       private_rows.py
+│   │       publish_space.sh
+│   │       release_confirm.py
+│   │       release_numbers.py
+│   │       reliability_head.py
+│   │       review_calibration_screen.py
+│   │       round4_deltas.py
+│   │       screen_longdoc_v1.py
+│   │       screen_overlap.py
+│   │       serving_bench.py
+│   │       sft_probe.py
+│   │       temperature_groups.py
+│   │       verify_claims.py
+│   │       
+│   ├───skills
+│   │   ├───kev-deploy
+│   │   │   │   README.md
+│   │   │   │   SKILL.md
+│   │   │   │   
+│   │   │   └───scripts
+│   │   │           kev_serve.py
+│   │   │           
+│   │   └───kev-finetune
+│   │       │   README.md
+│   │       │   SKILL.md
+│   │       │   
+│   │       ├───assets
+│   │       │       workload.example.json
+│   │       │       
+│   │       ├───references
+│   │       │       data-format.md
+│   │       │       data-generation.md
+│   │       │       deploy.md
+│   │       │       hill-climbing.md
+│   │       │       
+│   │       └───scripts
+│   │               convert_data.py
+│   │               extract_workload.py
+│   │               generate_data.py
+│   │               kev_modal.py
+│   │               plan_size.py
+│   │               split_data.py
+│   │               
+│   ├───space
+│   │       app.py
+│   │       presets.py
+│   │       README.md
+│   │       requirements.txt
+│   │       
+│   ├───tests
+│   │       test_api.py
+│   │       test_breadth_v1.py
+│   │       test_conventions.py
+│   │       test_devtools_v1.py
+│   │       test_documents_tools.py
+│   │       test_generators.py
+│   │       test_hard_v1.py
+│   │       test_longdoc_v1.py
+│   │       test_mlx.py
+│   │       test_model.py
+│   │       test_research.py
+│   │       test_rounds.py
+│   │       test_skill_scripts.py
+│   │       test_unit.py
+│   │       
+│   └───tools
+│       └───review
+│           │   .gitignore
+│           │   index.html
+│           │   package-lock.json
+│           │   package.json
+│           │   README.md
+│           │   tsconfig.json
+│           │   vite.config.ts
+│           │   
+│           ├───public
+│           │       sample.jsonl
+│           │       
+│           └───src
+│                   App.tsx
+│                   index.css
+│                   main.tsx
+│                   
+├───laya
+│   │   .dockerignore
+│   │   .envrc
+│   │   .gitattributes
+│   │   .gitignore
+│   │   AGENTS.md
+│   │   BENCHMARKS.md
+│   │   CODE_OF_CONDUCT.md
+│   │   compose.cuda.yaml
+│   │   compose.example.yml
+│   │   compose.http.yaml
+│   │   compose.spark.yaml
+│   │   compose.yaml
+│   │   CONTRIBUTING.md
+│   │   Dockerfile
+│   │   flake.lock
+│   │   flake.nix
+│   │   laya_kev_gateway.py
+│   │   laya_kev_mcp.py
+│   │   LICENSE
+│   │   pyproject.toml
+│   │   README.md
+│   │   requirements-docs.txt
+│   │   setup.py
+│   │   zensical.toml
+│   │   
+│   ├───.github
+│   │   │   dependabot.yml
+│   │   │   PULL_REQUEST_TEMPLATE.md
+│   │   │   
+│   │   ├───ISSUE_TEMPLATE
+│   │   │       bug_report.yml
+│   │   │       config.yml
+│   │   │       feature_request.yml
+│   │   │       
+│   │   └───workflows
+│   │           ci.yml
+│   │           docker.yml
+│   │           docs.yml
+│   │           evals.yml
+│   │           release-ts.yml
+│   │           release.yml
+│   │           security.yml
+│   │           
+│   ├───assets
+│   │       benchmark_comparison.png
+│   │       devto_cover.png
+│   │       laya_benchmark.png
+│   │       laya_benchmark_common.png
+│   │       laya_vs_jev.png
+│   │       laya_vs_jev_full.png
+│   │       logo-lockup-dark.png
+│   │       logo-lockup-dark.svg
+│   │       logo-lockup.png
+│   │       logo-lockup.svg
+│   │       logo-mark-ink.png
+│   │       logo-mark-ink.svg
+│   │       logo-mark-mono.svg
+│   │       logo-mark.png
+│   │       logo-mark.svg
+│   │       long_context_8192.png
+│   │       make_logo.py
+│   │       
+│   ├───benchmarks
+│   │   │   bench-rtx4070.png
+│   │   │   bench_compile.py
+│   │   │   bench_fast.py
+│   │   │   bench_predict_batch.py
+│   │   │   parity_fast.py
+│   │   │   plot_results.py
+│   │   │   results-consistency-rtx4070.json
+│   │   │   results-router-rtx4070.json
+│   │   │   results-rtx4070.json
+│   │   │   
+│   │   └───results
+│   │           fast_english_rtx4070.json
+│   │           fast_multilingual_rtx4070.json
+│   │           parity_english_fp16_rtx4070.json
+│   │           parity_english_rtx4070.json
+│   │           parity_multilingual_fp16_rtx4070.json
+│   │           parity_multilingual_rtx4070.json
+│   │           parity_typed_decisions_fp16_rtx4070.json
+│   │           parity_typed_decisions_rtx4070.json
+│   │           
+│   ├───docker
+│   │       check_torch.py
+│   │       entrypoint.py
+│   │       
+│   ├───docs
+│   │   │   .nav.yml
+│   │   │   benchmarks.md
+│   │   │   crewai.md
+│   │   │   docker-platforms.md
+│   │   │   docker.md
+│   │   │   evals.md
+│   │   │   finetune.md
+│   │   │   finetune_browser_agent.md
+│   │   │   http-api.md
+│   │   │   index.md
+│   │   │   langchain.md
+│   │   │   llamaindex.md
+│   │   │   staged-adoption.md
+│   │   │   structured.md
+│   │   │   
+│   │   ├───hooks
+│   │   │       .nav.yml
+│   │   │       api.md
+│   │   │       errors.md
+│   │   │       examples.md
+│   │   │       index.md
+│   │   │       lifecycle.md
+│   │   │       patterns.md
+│   │   │       tracing.md
+│   │   │       
+│   │   └───reference
+│   │           .nav.yml
+│   │           agent.md
+│   │           helpers.md
+│   │           index.md
+│   │           langchain.md
+│   │           router.md
+│   │           
+│   ├───examples
+│   │   │   crewai_quickstart.py
+│   │   │   langchain_quickstart.py
+│   │   │   llamaindex_quickstart.py
+│   │   │   server.py
+│   │   │   
+│   │   ├───docker
+│   │   │       quickstart.py
+│   │   │       request.json
+│   │   │       
+│   │   └───hooks
+│   │           audit.py
+│   │           cache.py
+│   │           otel.py
+│   │           README.md
+│   │           redact.py
+│   │           
+│   ├───laya
+│   │   │   agent.py
+│   │   │   cli.py
+│   │   │   common.py
+│   │   │   confidence.py
+│   │   │   email.py
+│   │   │   evals.py
+│   │   │   evals_cli.py
+│   │   │   fast.py
+│   │   │   hooks.py
+│   │   │   lang.py
+│   │   │   onnx_agent.py
+│   │   │   presets.py
+│   │   │   revisions.py
+│   │   │   router.py
+│   │   │   serve.py
+│   │   │   shortlist.py
+│   │   │   structured.py
+│   │   │   tl_kernels.py
+│   │   │   _compile.py
+│   │   │   __init__.py
+│   │   │   
+│   │   ├───integrations
+│   │   │       crewai.py
+│   │   │       langchain.py
+│   │   │       llamaindex.py
+│   │   │       _errors.py
+│   │   │       __init__.py
+│   │   │       
+│   │   └───mcp
+│   │           device.py
+│   │           server.py
+│   │           tools.py
+│   │           __init__.py
+│   │           
+│   ├───laya-ts
+│   │   │   package-lock.json
+│   │   │   package.json
+│   │   │   README.md
+│   │   │   tsconfig.json
+│   │   │   
+│   │   ├───examples
+│   │   │       snake.mjs
+│   │   │       try-ml.mjs
+│   │   │       
+│   │   ├───scripts
+│   │   │       export_onnx.py
+│   │   │       
+│   │   ├───src
+│   │   │       agent.ts
+│   │   │       common.ts
+│   │   │       email.ts
+│   │   │       hooks.ts
+│   │   │       index.ts
+│   │   │       lang.ts
+│   │   │       presets.ts
+│   │   │       providers.ts
+│   │   │       router.ts
+│   │   │       shortlist.ts
+│   │   │       structured.ts
+│   │   │       tokenizer.ts
+│   │   │       
+│   │   └───tests
+│   │           agent.test.ts
+│   │           answer-confidence.test.ts
+│   │           audit-regressions.test.ts
+│   │           blank-lang-routing.test.ts
+│   │           bpe-complexity.test.ts
+│   │           bpe.test.ts
+│   │           email-presets.test.ts
+│   │           flat-parity.test.ts
+│   │           hooks.test.ts
+│   │           identifier-complexity.test.ts
+│   │           lang-agnostic-codes.test.ts
+│   │           lang-temperature.test.ts
+│   │           lang.test.ts
+│   │           legend-parity.test.ts
+│   │           maxlen.test.ts
+│   │           package-e2e.mjs
+│   │           parity-sequence.test.ts
+│   │           revision-pinning.test.ts
+│   │           router.test.ts
+│   │           scaffold.test.ts
+│   │           sequence-prefix.test.ts
+│   │           shortlist.test.ts
+│   │           structured.test.ts
+│   │           tokenizer-parity.test.ts
+│   │           
+│   ├───nix
+│   │       laya-serve.nix
+│   │       package.nix
+│   │       
+│   ├───notebooks
+│   │       laya_finetune_typed_decisions_2xT4_kaggle.ipynb
+│   │       
+│   ├───research
+│   │   │   README.md
+│   │   │   __init__.py
+│   │   │   
+│   │   ├───benchmarks
+│   │   │   ├───feishu_zh
+│   │   │   │   │   audit.py
+│   │   │   │   │   LICENSE
+│   │   │   │   │   metrics.py
+│   │   │   │   │   prompts.py
+│   │   │   │   │   README.md
+│   │   │   │   │   README.zh-CN.md
+│   │   │   │   │   render_cards.py
+│   │   │   │   │   run.py
+│   │   │   │   │   SOURCE.json
+│   │   │   │   │   
+│   │   │   │   ├───assets
+│   │   │   │   │       xiaohongshu-scorecard-3x4-en.png
+│   │   │   │   │       xiaohongshu-scorecard-3x4.png
+│   │   │   │   │       xiaohongshu-table-3x4.png
+│   │   │   │   │       
+│   │   │   │   ├───data
+│   │   │   │   │       cases.jsonl
+│   │   │   │   │       manifest.json
+│   │   │   │   │       
+│   │   │   │   ├───results
+│   │   │   │   │   └───v1
+│   │   │   │   │       │   environment_check.json
+│   │   │   │   │       │   option_token_audit.json
+│   │   │   │   │       │   summary.json
+│   │   │   │   │       │   
+│   │   │   │   │       ├───jev
+│   │   │   │   │       │       metadata.json
+│   │   │   │   │       │       raw.jsonl
+│   │   │   │   │       │       
+│   │   │   │   │       └───laya
+│   │   │   │   │               metadata.json
+│   │   │   │   │               raw.jsonl
+│   │   │   │   │               
+│   │   │   │   └───tests
+│   │   │   │           test_audit.py
+│   │   │   │           
+│   │   │   └───zh_short_commands
+│   │   │       │   audit.py
+│   │   │       │   prompts.py
+│   │   │       │   README.md
+│   │   │       │   README.zh-CN.md
+│   │   │       │   run.py
+│   │   │       │   
+│   │   │       ├───data
+│   │   │       │       cases.jsonl
+│   │   │       │       manifest.json
+│   │   │       │       
+│   │   │       ├───results
+│   │   │       │   └───v1
+│   │   │       │       └───laya-multilingual
+│   │   │       │               report.json
+│   │   │       │               
+│   │   │       └───tests
+│   │   │               test_audit.py
+│   │   │               test_benchmark.py
+│   │   │               
+│   │   ├───eval
+│   │   │       laya_eval.py
+│   │   │       metamorphic.py
+│   │   │       presentation_checks.py
+│   │   │       README.md
+│   │   │       test_laya_eval.py
+│   │   │       test_metamorphic.py
+│   │   │       test_presentation_checks.py
+│   │   │       __init__.py
+│   │   │       
+│   │   ├───evals
+│   │   │       act_head_eval.py
+│   │   │       check_regression.py
+│   │   │       dataset.template.jsonl
+│   │   │       fixture.jsonl
+│   │   │       README.md
+│   │   │       test_act_head_eval.py
+│   │   │       thresholds.json
+│   │   │       zh_decision_bench.jsonl
+│   │   │       
+│   │   ├───results
+│   │   │       app_benchmark_results.json
+│   │   │       confidence_definitions.json
+│   │   │       cpu_51_language_sweep.json
+│   │   │       cpu_51_language_sweep_clamped.json
+│   │   │       eval_english_51_languages.json
+│   │   │       latency_cpu_m7a_xlarge_20260924.json
+│   │   │       length_batching_cpu_20260924.json
+│   │   │       long_context_multilingual.json
+│   │   │       presentation_checks_shipped.json
+│   │   │       question_token_reuse_cuda.json
+│   │   │       t4_colab_benchmark.json
+│   │   │       zh_rerun_part_a.json
+│   │   │       
+│   │   └───scripts
+│   │           bench_apps.py
+│   │           bench_latency.py
+│   │           bench_length_batching.py
+│   │           bench_local.py
+│   │           bench_long_context.py
+│   │           bench_question_token_reuse.py
+│   │           bench_router_grouping.py
+│   │           build_benchmark_nb.py
+│   │           confidence_definitions.py
+│   │           laya_benchmark_colab.ipynb
+│   │           make_plots.py
+│   │           plot_long_context.py
+│   │           
+│   ├───scripts
+│   │       export_onnx.py
+│   │       
+│   └───tests
+│           test_attention_dynamic_shapes.py
+│           test_audit_regressions.py
+│           test_audit_scope.py
+│           test_batch.py
+│           test_blank_lang_routing.py
+│           test_calibration_persistence.py
+│           test_cli.py
+│           test_compile.py
+│           test_compose_env.py
+│           test_confidence.py
+│           test_context_manager.py
+│           test_crewai.py
+│           test_criteria.py
+│           test_criteria_normalization.py
+│           test_decision_model.py
+│           test_docker_entrypoint.py
+│           test_docker_torch.py
+│           test_doc_tables.py
+│           test_download.py
+│           test_email.py
+│           test_empty_questions.py
+│           test_env_docs.py
+│           test_evals.py
+│           test_evals_api.py
+│           test_evals_onnx.py
+│           test_example_server_errors.py
+│           test_example_server_limits.py
+│           test_export_onnx_safety.py
+│           test_fast.py
+│           test_head_checkpointing.py
+│           test_hooks.py
+│           test_hooks_api.py
+│           test_identifier_complexity.py
+│           test_langchain.py
+│           test_langchain_real_mode.py
+│           test_lang_guess.py
+│           test_lang_stats.py
+│           test_lazy_import.py
+│           test_llamaindex.py
+│           test_load_errors.py
+│           test_local_e2e.py
+│           test_mcp.py
+│           test_mcp_local_e2e.py
+│           test_onnx.py
+│           test_onnx_batch.py
+│           test_onnx_lang_parity.py
+│           test_onnx_long.py
+│           test_onnx_quantize.py
+│           test_onnx_sort.py
+│           test_option_collapse.py
+│           test_packaging.py
+│           test_portability.py
+│           test_predict_batch.py
+│           test_predict_long.py
+│           test_question_token_reuse.py
+│           test_revision_pinning.py
+│           test_router.py
+│           test_router_batch.py
+│           test_router_memory.py
+│           test_runtime_fixes.py
+│           test_serve.py
+│           test_server_example.py
+│           test_shortlist.py
+│           test_shortlist_cosine.py
+│           test_structured.py
+│           test_structured_api.py
+│           test_structured_docs.py
+│           test_system_one_lang.py
+│           test_temperature_loading.py
+│           test_tokenizer_cache.py
+│           test_tokenizer_concurrency.py
+│           test_training.py
+│           test_truncation_direction.py
+│           
+└───Lich_Su_Truy_Van
+        Q398_Tich_Hop_Laya_Kev_Vao_Codex_Va_Antigravity_CLI_TeamAgent.md
+        
