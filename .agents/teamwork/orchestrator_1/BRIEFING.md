@@ -52,14 +52,14 @@ Xây dựng hệ thống TeamAgent Orchestrator toàn diện điều phối song
 ## Team Roster
 | Agent | Type | Work Item | Status | Conv ID |
 |---|---|---|---|---|
-| spec_miner_survey | teamwork_preview_spec_miner | Khảo sát tài liệu đặc tả R1-R5 | in-progress | af12368a-151e-4fb3-9fe4-d2e7eec20528 |
+| spec_miner_survey | teamwork_preview_spec_miner | Khảo sát tài liệu đặc tả R1-R5 | completed | af12368a-151e-4fb3-9fe4-d2e7eec20528 |
 | explorer_survey_1 | teamwork_preview_explorer | Khảo sát Laya & Kev codebase | in-progress | 20242bbf-f675-494a-a006-a3e05dbc7f15 |
 | explorer_survey_2 | teamwork_preview_explorer | Khảo sát hạ tầng điều phối & tooling | in-progress | 42bcb31d-ce9f-456e-b304-0d4b2cde4e86 |
 
 ## Succession Status
 - Succession required: no
 - Spawn count: 3 / 16
-- Pending subagents: af12368a-151e-4fb3-9fe4-d2e7eec20528, 20242bbf-f675-494a-a006-a3e05dbc7f15, 42bcb31d-ce9f-456e-b304-0d4b2cde4e86
+- Pending subagents: 20242bbf-f675-494a-a006-a3e05dbc7f15, 42bcb31d-ce9f-456e-b304-0d4b2cde4e86
 - Predecessor: none
 - Successor: not yet spawned
 
